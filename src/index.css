@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* This ensures your base layer is correct for the new engine */
+:root {
+  background-color: #0a0a0a;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
