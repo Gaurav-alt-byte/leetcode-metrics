@@ -19,7 +19,8 @@ export default function App() {
     setLoading(true);
     setError(false);
     try {
-      const res = await fetch(`https://alfa-leetcode-api.onrender.com/${user}/solved`);
+      // ✅ CORRECT: Use the base URL you just shared
+      const res = await fetch(`https://alfa-leetcode-api-orpin.vercel.app/${user}/solved`);
       const result = await res.json();
       
       // Check if API returned an error or user not found
